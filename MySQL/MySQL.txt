@@ -1,0 +1,15 @@
+1) MySQL is a RDBMS (relational database management system) based on the SQL (Structured Query Language) queries. It is used for accessing and managing the records in the table.
+
+2) MySQL database language is based on the SQL queries to access and manage the records of the table.
+
+3) MySQL supports multi-threading that makes it easily scalable.
+
+4) MySQL supports a large number of embedded applications, which makes MySQL very flexible.
+
+5) MySQL is compatible to run on many operating systems, like Windows, Linux, many varieties of UNIX (such as Sun Solaris, AIX) and others. MySQL also provides a facility that the clients can run on the same computer as the server or on another computer (communication via a local network or the Internet).
+
+6) MySQL allows transactions to be rolled back, commit, and crash recovery.
+
+7) Its efficiency is high because it has a very low memory leakage problem.
+
+8) It can download, install, and execute on most of the available operating systems so we can say it MySQL is platform independent.
