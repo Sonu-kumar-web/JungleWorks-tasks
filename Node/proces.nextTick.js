@@ -1,5 +1,5 @@
 /*  process.nextTick() in not the part of any phase of event loop.
-    process.nextTick() schedule a callback function to be executed in next iteration of event loop
+    process.nextTick() Schedule a callback function to be executed in next iteration of event loop
 */
 
 const test = () => {
