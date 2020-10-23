@@ -13,3 +13,53 @@
 7) Its efficiency is high because it has a very low memory leakage problem.
 
 8) It can download, install, and execute on most of the available operating systems so we can say it MySQL is platform independent.
+
+EXAMPLES:- 
+
+1) Create a employee table:-
+
+    CREATE TABLE employee_table(  
+    id int NOT NULL AUTO_INCREMENT,  
+    name varchar(30) NOT NULL,  
+    occupation varchar(30) NOT NULL,  
+    age int NOT NULL,  
+    PRIMARY KEY (id)  
+);  
+
+2) Insert records into a table
+
+    INSERT INTO employee_table VALUES
+    (1, 'Sonu kumar', 'Developer', 24),
+    (2, 'Ayush', 'Tester', 22),
+    (3, 'Navneet', 'Programmer', 22);
+
+3) Select all records from a table
+
+    SELECT * FROM employee_table;
+
+4) Update record in a table
+
+    UPDATE employee_table
+        SET age = 25
+        WHERE id = 1;
+
+5) Delete a record from a table
+
+    DELETE FROM employee_table
+        WHERE id = 2;
+
+6) Select a single col from a table
+
+    SELECT name FROM employee_table;
+
+7) We can sort the output 
+
+    SELECT *  
+    FROM employee_table  
+    WHERE age = 22  
+    ORDER BY name;  
+
+8) Use like operator
+
+    SELECT * FORM employee_table
+    WHERE name LIKE '%vn%';

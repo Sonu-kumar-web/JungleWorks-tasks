@@ -24,7 +24,9 @@ async function getData(req, res, next) {
       const data = await response.json();
 
       // Set your data into Redis
-      client.setex(names, data); // Here "name" is key and "data" is value
+      client.set(names, data); // Here "name" is key and "data" is value.
+      client.get(names); // get the value according the key.
+      client.expire(names, 12 * 60 * 60); // Key will be expire after 12 hours.
       next();
    } catch (err) {
       console.log("Error", err);
